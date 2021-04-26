@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<clientes>
+  <cliente>
+    <url_img>001_prime_acqua.png</url_img>
+    <tipo>Condomínio</tipo>
+    <categoria>Vertical</categoria>
+    <nome>Condomínio Primeacqua</nome>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <t_conjunto>Torres</t_conjunto>
+    <n_conjunto>12</n_conjunto>
+    <t_unidades>Apartamentos</t_unidades>
+    <n_unidades>440 </n_unidades>
+    <p_adm>2010 - 2012 / 2016</p_adm>
+  </cliente>
+  <cliente>
+    <url_img>002_torres_do_bonfim.svg</url_img>
+    <tipo>Condomínio</tipo>
+    <categoria>Vertical</categoria>
+    <nome>Residencial Torres do Bonfim</nome>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <t_conjunto>Torres</t_conjunto>
+    <n_conjunto>4</n_conjunto>
+    <t_unidades>Apartamentos</t_unidades>
+    <n_unidades>399</n_unidades>
+    <p_adm>2013 - Atual - Quarto mandato</p_adm>
+  </cliente>
+    <cliente>
+    <url_img>003_central_view.svg</url_img>
+    <tipo>Condomínio</tipo>
+    <categoria>Vertical</categoria>
+    <nome>Central View Residence</nome>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <t_conjunto>Torres</t_conjunto>
+    <n_conjunto>4</n_conjunto>
+    <t_unidades>Apartamentos</t_unidades>
+    <n_unidades>400</n_unidades>
+    <p_adm>2014 - 2018 - Dois Mandatos</p_adm>
+  </cliente>
+    <cliente>
+    <url_img>004_caxambu.svg</url_img>
+    <tipo>Loteamento</tipo>
+    <categoria>Horizontal</categoria>
+    <nome>Terra Caxambú</nome>
+    <cidade>Jundiaí</cidade>
+    <estado>SP</estado>
+    <t_conjunto></t_conjunto>
+    <n_conjunto></n_conjunto>
+    <t_unidades>Lotes</t_unidades>
+    <n_unidades>143</n_unidades>
+    <p_adm>2016 - 2017</p_adm>
+  </cliente>
+    <cliente>
+    <url_img>005_premiere.svg</url_img>
+    <tipo>Condomínio</tipo>
+    <categoria>Vertical</categoria>
+    <nome>Premiere Morumbi Condomínio Clube</nome>
+    <cidade>Paulínia</cidade>
+    <estado>SP</estado>
+    <t_conjunto>Torres</t_conjunto>
+    <n_conjunto>8</n_conjunto>
+    <t_unidades>Apartamentos</t_unidades>
+    <n_unidades>337</n_unidades>
+    <p_adm>2017 - 2019</p_adm>
+  </cliente>
+  <cliente>
+    <url_img>006_recanto.svg</url_img>
+    <tipo>Condomínio</tipo>
+    <categoria>Vertical</categoria>
+    <nome>Residencial Recanto da Fortuna</nome>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <t_conjunto>Torres</t_conjunto>
+    <n_conjunto>12</n_conjunto>
+    <t_unidades>Apartamentos</t_unidades>
+    <n_unidades>239</n_unidades>
+    <p_adm>2017 - Atual - Terceiro mandato</p_adm>
+  </cliente>
+  <cliente>
+    <url_img>008_talipo.svg</url_img>
+    <tipo>Condomínio</tipo>
+    <categoria>Vertical</categoria>
+    <nome>Talipô Exclusive Club</nome>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <t_conjunto>Torres</t_conjunto>
+    <n_conjunto>4</n_conjunto>
+    <t_unidades>Apartamentos</t_unidades>
+    <n_unidades>384</n_unidades>
+    <p_adm>2017 - 2019</p_adm>
+  </cliente>
+  <cliente>
+    <url_img>007_iluminare.svg</url_img>
+    <tipo>Condomínio</tipo>
+    <categoria>Horizontal</categoria>
+    <nome>Residencial Iluminare</nome>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <t_conjunto>Casas</t_conjunto>
+    <n_conjunto>10</n_conjunto>
+    <t_unidades>Apartamentos</t_unidades>
+    <n_unidades>399</n_unidades>
+    <p_adm>2018 - 2020</p_adm>
+  </cliente>
+</clientes>
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	 <system.webServer>
+		 <defaultDocument enabled="true">
+			 <files>
+				 <add value="index.html" />
+			 </files>
+		 </defaultDocument>
+	 </system.webServer>
+</configuration> -->
+
+<httpErrors errorMode="Detailed"/>

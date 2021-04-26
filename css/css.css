@@ -1,0 +1,469 @@
+
+/* Layout
+-----------------------------*/
+/* Layout CARROSSEL
+-----------------------------*/
+
+  .carousel-wrapper {
+	position: relative;
+	width: 100vw;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	
+	overflow: hidden;
+  }
+  .carousel-wrapper .carousel {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-80%);
+	width: 100%;
+	height: 50%;
+  }
+  .carousel-wrapper .carousel .carousel-cell {
+	padding: 5px;
+	width: 15%;
+	height: auto;
+	min-width: 20rem;
+	margin: 0px 30px 0px 30px;
+	transition: transform 500ms ease;
+  }
+  .carousel-wrapper .carousel .carousel-cell .more {
+	text-align: center;
+	text-decoration: none;
+	transition: opacity 300ms ease;
+  }
+  .carousel-wrapper .carousel .carousel-cell .more:hover, .carousel-wrapper .carousel .carousel-cell .more:active, .carousel-wrapper .carousel .carousel-cell .more:visited, .carousel-wrapper .carousel .carousel-cell .more:focus {
+	color: #CFCFCF;
+
+  }
+
+  .carousel-wrapper .carousel .carousel-cell .price sup {
+	top: 2px;
+	position: absolute;
+  }
+  .carousel-wrapper .carousel .carousel-cell.is-selected {
+	transform: scale(1.2);
+  }
+  .carousel-wrapper .carousel .carousel-cell.is-selected .line {
+	height: 35px;
+  }
+  .carousel-wrapper .carousel .carousel-cell.is-selected .price, .carousel-wrapper .carousel .carousel-cell.is-selected .more {
+	opacity: 1;
+  }
+  .carousel-wrapper .flickity-page-dots {
+	display: none;
+  }
+  .carousel-wrapper .flickity-viewport, .carousel-wrapper .flickity-slider {
+	overflow: visible;
+  }
+  
+/* Layout CARROSSEL
+-----------------------------*/
+html, body, #home {
+	height: 100%;
+overflow-x: hidden;
+    
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+  background: url(../img/header.jpg);
+  height: 100%;
+   /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-attachment: fixed;
+	background-attachment: fixed;
+    position: relative;
+
+}
+
+.badge{
+	background-color: #590006;
+}
+
+.bg {
+  background: url(../img/header.jpg);
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+	
+}
+.bgteste {
+
+	height: 100%;
+    
+  /* Center and scale the image nicely */
+}
+.section-sobre{
+   height: 100%;
+   position: relative;
+}
+.container-sobre{
+    height: 100%;
+   position: relative;
+}
+
+/* FORM CONTACT */
+
+
+.contact_form h3 {
+  margin-left: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.contact_form div {
+  width: 100%;
+  
+
+}
+
+.formStyle { 
+	  /* 
+   background-color: transparent;
+  padding: 20px;
+  width: 100%; 
+  margin-bottom: 20px; 
+  border-bottom-width: 1px; 
+  border-bottom-style: solid; 
+  border-bottom-color: #ecf0f1; 
+  border-top-style: none; 
+  border-right-style: none; 
+  border-left-style: none; 
+  font-size: 1em;
+  font-weight: 100;
+  color: #ffffff;
+ 	 	*/
+ 	 	background-color: transparent;
+ 	 	color: #ffffff;
+ 	 	  border-bottom-width: 1px; 
+  border-bottom-style: solid; 
+  border-bottom-color: #ecf0f1; 
+  border-top-style: none; 
+  border-right-style: none; 
+  border-left-style: none;
+ 
+}
+
+.formButton {
+   /* 
+   float: center;
+	background-color:#ffffff;
+	display:inline-block;
+	color:#590006;
+	font-size:15px;
+	font-weight: 500;
+	padding: 6px 50px;
+ 	text-decoration:none;
+ 	 	*/
+ 	background-color:#ffffff;
+	display:inline-block;
+	
+	padding: 6px 50px;
+ 	
+}
+
+.formButton:hover {
+	background-color: #590006;
+    color:#ffffff;
+}
+
+/*To remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+   color: #ecf0f1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ecf0f1;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ecf0f1;  
+}
+
+:-ms-input-placeholder {  
+   color: #ecf0f1;  
+}
+
+col-6 {
+	margin: none;
+}
+/* Barra de navegação
+-----------------------------*/
+nav.navbar-transparente {
+	padding: 10px 10px;
+	background: rgba(89,0,6,0.8);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(255,255,255,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link:visited {
+	color: white;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 10px 15px;
+}
+
+/* Capa
+-----------------------------*/
+
+.vl {
+  border-left: 1px solid white;
+  
+  position: relative;
+
+}
+
+
+card-body{
+	background-color: #590006;
+}
+kbd {
+	margin: 0px 0.1em;
+	padding: 0.1em 0.6em;
+	border-radius: 3px;
+	border: 1px solid rgb(204, 204, 204);
+	color: #590006;
+	
+
+}
+
+
+/* Estrutura conteúdos
+-----------------------------*/
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.caixa-servicos {
+	 background-color: rgba(255,255,255,.9);
+    
+}
+
+.b_servicos{
+ 
+	border: 1px solid;
+	border-color: #590006;
+    border-radius: 5px;
+
+}
+
+.section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#servicos h1, h2, h3 {
+ 	color: #590006;
+
+}
+#clientes h1, h2, h3 {
+ 	color: #590006;
+}
+
+#recursos {
+	color: white;
+}
+
+#sobre h1, h2, h3 {
+	color: #590006;
+   
+}
+
+.caixa-sobre{
+     height: 100%;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+	padding-left: 80px;
+	background-color: #ff00ff;
+}
+
+.con_icons{
+	
+	font-size: 40px;
+	margin: 10px;
+	color:#FFfffF;
+}
+.serv_icons{
+	
+	font-size: 25px;
+	margin: 10px;
+	color:#590006;
+}
+
+/* Rodapé
+-----------------------------*/
+footer {
+	background: rgba(89,0,6,0.92);
+	padding: 50px 0px 50px 0px;
+	position: relative;
+}
+
+footer h4 {
+	
+	color: white;
+	text-transform: uppercase;
+}
+
+footer a:any-link {
+	color: white;
+	
+}
+
+footer a:hover {
+	color: rgba(255,255,255,0.6);
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: center;
+	margin: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/* Tipografia
+-----------------------------*/
+h1 {
+	font-weight: 900;
+	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	
+}
+
+
+
+
+@media (max-width: 575.98px) {
+
+	body{
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+	h1 {
+		font-size: 4em;
+	}
+	.btn-custom {
+		margin: 10px 15px;
+		font-size: 1em;
+	}
+	.linkss{
+		font-size: 1em;
+	}
+	.navbar-brand{
+		display: none;
+	}
+	.desc_cont{
+		display: none;
+	}
+	.divisor {
+		margin: 1px;
+	}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	h4 {
+		font-size: 1.5em;
+	}
+	h1 {
+		font-size: 2em;
+	}
+
+	.btn-custom {
+		margin: 10px 15px;
+	}
+	.vl {
+	  display: none;
+	}
+	.linkss{
+		font-size: 0.8em;
+	}
+	.divisor {
+		margin: 1px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+		h1 {
+		font-size: 5em;
+	}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+}
+
+
+@media (min-width: 1200px) { 
+	h1 {
+		font-size: 6em;
+	}
+}
+
+
+

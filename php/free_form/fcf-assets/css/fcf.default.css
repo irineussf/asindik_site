@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.input,.textarea,.select select,.file-cta,.file-name {
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: #310003;
+  color: #fff;
+  resize: none;
+}
+html {
+  background-color: #460105;
+  font-size: 16px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+input[type="checkbox"],input[type="radio"] {
+  vertical-align: baseline;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+.button {
+  border-width: 1px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(0.5em - 1px);
+  text-align: center;
+  
+}
+.button.is-link {
+  background-color: #fff;
+  border-color: transparent;
+  color: #310003;
+}
+.button.is-link:hover {
+  background-color: #310003;
+  border-color: transparent;
+  color: #fff;
+}
+.button.is-normal {
+  font-size: 1rem;
+}
+.button.is-medium {
+  font-size: 1.25rem;
+}
+.input,.textarea,.select select {
+  background-color: #310003;
+  border-color: #dbdbdb;
+  color: #fff;
+}
+
+.input,.textarea {
+  max-width: 100%;
+  width: 100%;
+}
+
+.textarea {
+  display: block;
+  min-height: 200px;
+  padding: calc(0.75em - 1px);
+  resize: none;
+}
+
+.textarea:not([rows]) {
+  max-height: 40em;
+  min-height: 8em;
+}
+
+.textarea[rows] {
+  height: initial;
+}
